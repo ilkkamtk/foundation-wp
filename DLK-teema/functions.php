@@ -18,7 +18,7 @@ add_action('init', 'rekisteroi_menu');
 
 function lisaa_kirjasto() {
     wp_enqueue_script('jquery' );
-    wp_register_script('foundation', get_stylesheet_directory_uri() . '/js/vendor/foundation.min.js');
+    wp_register_script('foundation', get_stylesheet_directory_uri() . '/js/vendor/foundation.js');
     wp_register_script('what', get_stylesheet_directory_uri() . '/js/vendor/what-input.js');
     wp_register_script('app', get_stylesheet_directory_uri() . '/js/app.js');
      wp_enqueue_script('foundation' );
