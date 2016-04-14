@@ -1,9 +1,4 @@
 <?php get_header(); ?>
-    <div class="row">
-        <div class="column">
-            <img src="<?php header_image(); ?>" alt="banneri">
-        </div>
-    </div>
     <main class="row">
         <div class="column">
             <div class="row">

@@ -1,9 +1,4 @@
 <?php get_header(); ?>
-    <div class="row">
-        <div class="column">
-            <img src="<?php header_image(); ?>" alt="banneri">
-        </div>
-    </div>
     <main class="row">
         <div class="column">
             <div class="row">
@@ -24,7 +19,7 @@
                     </div>
                 </div>
                 <div class="row small-up-2 medium-up-3">
-                <?php wpp_get_mostpopular('range="all"&post_type="post"&wpp_start=" "&wpp_end=" "&thumbnail_width=280&thumbnail_height=280&excerpt_length=100&limit=6&post_html="<article class=\'column\'><a href=\'{url}\'>{thumb_img}<h4>{text_title}</h4><p>{summary}</p></a></article>"'); ?>
+                <?php wpp_get_mostpopular('range="all"&post_type="post"&wpp_start=" "&wpp_end=" "&thumbnail_width=400&thumbnail_height=280&excerpt_length=100&limit=6&post_html="<article class=\'column\'><a href=\'{url}\'>{thumb_img}<h4>{text_title}</h4><p>{summary}</p></a></article>"'); ?>
                 </div>
             </div>
         </div>

@@ -26,3 +26,10 @@ p > a > img {
 .column > p {
     padding: 0 2em 0 0;
 }
+
+@media screen and (max-width: 1024px) and (min-width: 479px) {
+    .top-bar-right {
+        position: absolute;
+        right: 8%;
+    }
+}
