@@ -3,10 +3,26 @@ footer .title-bar-title {
     font-size: 0.8em;
 }
 
-.top-bar, .top-bar ul {
+.top-bar,
+.top-bar ul {
     background-color: #000;
 }
 
-.menu-text, .menu-item a  {
+.menu-text,
+.menu-item a {
     color: #FFF;
+}
+
+.dropdown.menu > li.is-dropdown-submenu-parent > a::after,
+.is-accordion-submenu-parent > a::after {
+    border-color: rgb(255, 255, 255) transparent transparent;
+}
+
+p > a > img {
+    float: left;
+    padding: 0 1em 1em 1em;
+}
+
+.column > p {
+    padding: 0 2em 0 0;
 }

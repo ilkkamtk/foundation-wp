@@ -20,7 +20,7 @@
             <div class="callout">
                 <div class="row">
                     <div class="column">
-                        <h2>Katsotuimmat</h2>
+                        <h4>Katsotuimmat</h4>
                     </div>
                 </div>
                 <div class="row small-up-2 medium-up-3">
