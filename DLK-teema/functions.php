@@ -1,12 +1,12 @@
 <?php
-if ( ! isset( $content_width ) ) $content_width = 1000;
+if ( ! isset( $content_width ) ) $content_width = 1170;
 
 
 function custom_theme_setup() {
 	add_theme_support('post-thumbnails');
 	add_theme_support('title-tag');
 	add_theme_support('custom-background');
-	add_theme_support('custom-header', array('width' => 1000, 'height' => 400));
+	add_theme_support('custom-header', array('width' => 1170, 'height' => 400));
 }
 add_action( 'after_setup_theme', 'custom_theme_setup' );
 
