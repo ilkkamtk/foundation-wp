@@ -3,6 +3,10 @@ footer .title-bar-title {
     font-size: 0.8em;
 }
 
+article > a {
+    color: inherit;
+}
+
 .top-bar,
 .top-bar ul {
     background-color: #000;

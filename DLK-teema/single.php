@@ -15,7 +15,7 @@
             <div class="callout">
                 <div class="row">
                     <div class="column">
-                        <h4>Katsotuimmat</h4>
+                        <h4 class="subheader">Katsotuimmat</h4>
                     </div>
                 </div>
                 <div class="row small-up-2 medium-up-3">

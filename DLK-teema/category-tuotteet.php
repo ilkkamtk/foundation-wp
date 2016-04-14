@@ -12,7 +12,7 @@
             <div class="callout">
                 <div class="row">
                     <div class="column">
-                        <h4>Kategoriat</h4>
+                        <h4 class="subheader">Kategoriat</h4>
                     </div>
                 </div>
                 <div class="row small-up-2 medium-up-3">
