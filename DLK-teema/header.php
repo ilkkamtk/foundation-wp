@@ -6,8 +6,8 @@
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Foundation for Sites</title>
-    <link rel="stylesheet" href="css/foundation-flex.css">
-    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/foundation-flex.css">
+    <link rel="stylesheet" href="<?php echo get_stylesheet_directory_uri(); ?>/css/app.css">
 </head>
 
 <body>
@@ -20,19 +20,7 @@
 
             <div class="top-bar" id="example-menu">
                 <div class="top-bar-left">
-                    <ul class="dropdown menu horizontal show-for-medium" data-dropdown-menu>
-                        <li class="menu-text">Site Title</li>
-                        <li>
-                            <a href="#">One</a>
-                            <ul class="menu vertical">
-                                <li><a href="#">One</a></li>
-                                <li><a href="#">Two</a></li>
-                                <li><a href="#">Three</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="#">Two</a></li>
-                        <li><a href="#">Three</a></li>
-                    </ul>
+                    <?php get_sidebar(); ?>
                     <ul class="dropdown menu vertical hide-for-medium" data-accordion-menu>
                         <li>
                             <a href="#">One</a>
